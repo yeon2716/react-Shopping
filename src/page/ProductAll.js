@@ -8,7 +8,7 @@ import ProductCard from "../component/ProductCard";
 const ProductAll = () => {
   const [productList, setProductList] = useState([]);
   const getProducts = async () => {
-    let url = ` https://my-json-server.typicode.com/<your-username>/<your-repo>/products`;
+    let url = ` https://my-json-server.typicode.com/yeon2716/react-Shopping/products`;
     let response = await fetch(url);
     let data = await response.json();
 
